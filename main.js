@@ -5,4 +5,4 @@ function greeting(greetingMessage) {
     console.log(greetingMessage + ' ' + this.value);
 }
 
-setInterval();
+setInterval(greeting.bind());
